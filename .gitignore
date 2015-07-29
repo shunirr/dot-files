@@ -1,0 +1,12 @@
+*~
+*.swp
+.DS_Store
+.git/
+.hg/
+.hgtags
+.netrwhist
+
+vim/.vim/tags/
+vim/.vim/bundle/
+vimperator/.vimperator/info/
+
