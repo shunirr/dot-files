@@ -1,0 +1,8 @@
+namespace :bash do
+  desc 'symlink bash dotfiles' 
+  task :symlink do
+    symlink_dotfiles File.expand_path('../', __FILE__)
+  end
+end
+
+after 'symlink', 'bash:symlink'
