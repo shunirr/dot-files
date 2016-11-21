@@ -11,7 +11,7 @@ namespace :vim do
 
   desc 'update vim bundles'
   task :update do
-    sh 'vim', '-e', '+NeoBundleUpdate', '+qall'
+    # sh 'vim', '-e', '+NeoBundleUpdate', '+qall'
   end
 end
 
