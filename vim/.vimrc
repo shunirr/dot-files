@@ -6,7 +6,8 @@ augroup MyAutoCmd
 augroup END
 
 " Encoding {{{2
-set fileencodings=ucs-bom,iso-2022-jp,utf-8,cp932,euc-jp,default,latin1
+set encoding=utf8
+" set fileencodings=ucs-bom,iso-2022-jp,utf-8,cp932,euc-jp,default,latin1
 set fileformats=unix,dos,mac
 set ambiwidth=double
 
