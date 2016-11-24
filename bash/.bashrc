@@ -1,4 +1,6 @@
-export PS1="\[\e[0;36;44m\][\u@\h \w]\\$\[\e[0m\]"
+source "/usr/local/etc/bash_completion.d/git-completion.bash"
+GIT_PS1_SHOWDIRTYSTATE=true
+export PS1='\[\e[0;36;44m\][\u@\h \w]$(__git_ps1)\$\[\033[00m\] '
 export LSCOLORS=gxfxcxdxbxegedabagacad
 alias ls="ls -F -G"
 
